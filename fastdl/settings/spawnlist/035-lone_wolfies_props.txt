@@ -1,0 +1,8 @@
+"TableToKeyValues"
+{
+	"parentid"		"0"
+	"icon"		"icon16/wolf.png"
+	"id"		"411"
+	"name"		"Lone Wolfies Props"
+	"version"		"3"
+}

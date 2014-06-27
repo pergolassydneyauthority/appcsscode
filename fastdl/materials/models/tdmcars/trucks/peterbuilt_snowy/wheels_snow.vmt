@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/peterbuilt_snowy/wheels_snow"
+	"$bumpmap" "models/tdmcars/trucks/peterbuilt_snowy/wheels_snow_nrm"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 50
+	//"$phongalbedotint" "1"
+    	"$basemapalphaphongmask" "1"
+}

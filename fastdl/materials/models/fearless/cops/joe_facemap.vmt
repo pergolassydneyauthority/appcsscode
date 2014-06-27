@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/fearless/cops/joe_facemap"
+	"$halflambert" 1
+}

@@ -1,0 +1,82 @@
+"TableToKeyValues"
+{
+	"parentid"		"411"
+	"icon"		"icon16/paw.png"
+	"id"		"412"
+	"contents"
+	{
+		"1"
+		{
+			"type"		"header"
+			"text"		"LoneWolfie+"
+		}
+		"2"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/arrowboardmed.mdl"
+		}
+		"3"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/arrowboardsmall.mdl"
+		}
+		"4"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/intlightbarmedium.mdl"
+		}
+		"5"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/intlightbarsmall.mdl"
+		}
+		"6"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/lightholder_doublev2.mdl"
+		}
+		"7"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/lightholder_doublev3.mdl"
+		}
+		"8"
+		{
+			"type"		"header"
+			"text"		"Other"
+		}
+		"9"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/halogenlightbarbig.mdl"
+		}
+		"10"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/halogenlightbarmed.mdl"
+		}
+		"11"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/halogenlightbarsmall.mdl"
+		}
+		"12"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/ledlightbar2.mdl"
+		}
+		"13"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/lightbar3.mdl"
+		}
+		"14"
+		{
+			"type"		"model"
+			"model"		"models/lonewolfie/vector_lightbar10.mdl"
+		}
+		
+	}
+	"name"		"Police Props"
+	"version"		"3"
+}
