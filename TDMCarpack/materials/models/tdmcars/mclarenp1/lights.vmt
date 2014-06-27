@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/mclarenp1/lights"
+	"$nodecal" "1"
+	"$selfillum" "1"
+	"$selfillummask" "models/tdmcars/mclarenp1/lights_emissive"
+	$selfillumtint "[9 9 9.5]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

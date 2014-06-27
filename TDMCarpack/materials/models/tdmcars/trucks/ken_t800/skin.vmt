@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+// FOR CUSTOM SKINS, REMOVE "$basetexturetransform" "center .5 .5 scale 120 120 rotate 0 translate 0 0"
+// AND REPLACE "skin_normal" WITH "skin_nm"
+// OR ELSE IT WILL NOT WORK CORRECTLY!!!
+
+	"$basetexturetransform" "center .5 .5 scale 120 120 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/trucks/ken_t800/skin"
+	"$bumpmap" "models/tdmcars/trucks/ken_t800/skin_normal"
+	"$phong" 1
+	"$phongexponent" 200
+	"$phongboost"	0.7
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$normalmapalphaenvmapmask" 1
+	$detail "models/tdmcars/trucks/ken_t800/noise"
+	$detailscale "250"
+	$detailblendfactor "0.3"
+	$detailblendmode "0"
+}

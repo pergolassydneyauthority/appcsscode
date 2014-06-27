@@ -1,0 +1,6 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"vgui/entities/citroenc1tdm"
+	"$blendtintbybasealpha" 1
+	"$nolod" 			1
+} 

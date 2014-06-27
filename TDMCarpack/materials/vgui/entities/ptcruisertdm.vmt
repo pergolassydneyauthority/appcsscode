@@ -1,0 +1,6 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"vgui/entities/ptcruisertdm"
+	"$blendtintbybasealpha" 1
+	"$nolod" 			1
+} 

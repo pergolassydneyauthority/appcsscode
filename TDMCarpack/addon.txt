@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"		"TheDanishMaster Model Pack"
+	"version"	"1.0"
+	"up_date"	"17-05-2012"
+	"author_name"	"TheDanishMaster, Turn 10, Ubisoft, SCS Software"
+	"author_email"	""
+	"info"		"TheDanishMaster's Vehicle Pack. Original models by Turn 10, Ubisoft, SCS SOftware"
+}

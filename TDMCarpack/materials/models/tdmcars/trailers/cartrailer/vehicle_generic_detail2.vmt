@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trailers/cartrailer/vehicle_generic_detail2"
+	"$bumpmap" "models/tdmcars/trailers/cartrailer/vehicle_generic_detail2_normal"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.05" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 15
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.02 0.02 0.02]"
+	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

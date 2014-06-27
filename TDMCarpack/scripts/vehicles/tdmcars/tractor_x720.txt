@@ -1,0 +1,263 @@
+// tractor_x720, created by TheDanishMaster in 10/12/11 19:40:22, using Vehicle Controller (VCMod).
+
+"Vehicle"
+{
+	"WheelsPerAxle"		"2"
+	"Body"
+	{
+		"MassCenterOverride"	"0 0 30"
+		"MassOverride"			"15000"
+		"AddGravity"			"1"
+	}
+	"Engine"
+	{
+		"HorsePower"			"1500"
+		"MaxRPM"				"2000"
+		"MaxSpeed"				"50"
+		"MaxReverseSpeed"		"12"
+		"Autotransmission"		"1"
+		"AxleRatio"				"4.56"
+		"Gear"					"2.86"
+		"Gear"					"1.89"
+
+		"ShiftUpRPM"			"1000"
+		"ShiftDownRPM"			"500"
+
+		"Boost"
+		{
+			"Force"			"1.8"
+			"Duration"		"0"
+			"Delay"			"10"
+			"TorqueBoost"	"1"
+			"MaxSpeed"		"65"
+		}
+	}
+	"Steering"
+	{
+		"DegreesSlow"						"25"
+		"DegreesFast"						"12"
+		"DegreesBoost"						"7"
+		"SteeringExponent"					"1.4"
+		"SlowCarSpeed"						"10"
+		"FastCarSpeed"						"30"
+		"SlowSteeringRate"					"3"
+		"FastSteeringRate"					"1"
+		"SteeringRestRateSlow"				"4"
+		"SteeringRestRateFast"				"2"
+		"TurnThrottleReduceSlow"			"0.1"
+		"TurnThrottleReduceFast"			"1.5"
+		"BrakeSteeringRateFactor"			"6"
+		"ThrottleSteeringRestRateFactor"	"2"
+		"BoostSteeringRestRateFactor"		"1.7"
+		"BoostSteeringRateFactor"			"1.7"
+
+		"PowerSlideAccel"					"250"
+
+		"SkidAllowed"						"1"
+		"DustCloud"							"0"
+	}
+	"Axle"
+	{
+		"Wheel"
+		{
+			"Radius"		"35"
+			"Mass"			"550"
+			"Inertia"		"1"
+			"Damping"		"4"
+			"Material"		"jeeptire"
+			"SkidMaterial"	"slidingrubbertire"
+			"BrakeMaterial"	"brakingrubbertire"
+		}
+		"Suspension"
+		{
+			"SpringConstant"			"100"
+			"SpringDamping"				"2"
+			"StabilizerConstant"		"80"
+			"SpringDampingCompression"	"3"
+			"MaxBodyForce"				"25"
+		}
+		"TorqueFactor"						"0.6"
+		"BrakeFactor"						"0.8"
+	}
+	"Axle"
+	{
+		"Wheel"
+		{
+			"Radius"		"38"
+			"Mass"			"600"
+			"Inertia"		"0.6"
+			"Damping"		"2"
+			"Material"		"jeeptire"
+			"SkidMaterial"	"slidingrubbertire"
+			"BrakeMaterial"	"brakingrubbertire"
+		}
+		"Suspension"
+		{
+			"SpringConstant"			"150"
+			"SpringDamping"				"1"
+			"StabilizerConstant"		"3"
+			"SpringDampingCompression"	"5"
+			"MaxBodyForce"				"25"
+		}
+		"TorqueFactor"						"2.5"
+		"BrakeFactor"						"0.2"
+	}
+}
+
+"Vehicle_Sounds"
+{
+	"Gear"
+	{
+		"Max_Speed"				"0.2"
+		"Speed_Approach_Factor"	"1"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"0.4"
+		"Speed_Approach_Factor"	"0.07"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"0.6"
+		"Speed_Approach_Factor"	"0.07"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"0.8"
+		"Speed_Approach_Factor"	"0.035"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"0.85"
+		"Speed_Approach_Factor"	"0.015"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"2"
+		"Speed_Approach_Factor"	"0.03"
+	}
+	"State"
+	{
+		"Name"		"ss_start_idle"
+		"Sound"		"phantom_engine_start"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_0"
+		"Sound"		"phantom_rev"
+		"Min_Time"	"0.75"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_1_resume"
+		"Sound"		"phantom_firstgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_3_resume"
+		"Sound"		"phantom_thirdgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_3"
+		"Sound"		"phantom_thirdgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_2"
+		"Sound"		"phantom_secondgear"
+		"Min_Time"	"1.25"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_1"
+		"Sound"		"phantom_firstgear"
+		"Min_Time"	"1.25"
+	}
+	"State"
+	{
+		"Name"		"ss_shutdown"
+		"Sound"		"phantom_engine_stop"
+	}
+	"State"
+	{
+		"Name"		"ss_idle"
+		"Sound"		"phantom_engine_idle"
+	}
+	"State"
+	{
+		"Name"		"ss_reverse"
+		"Sound"		"phantom_reverse"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_2_resume"
+		"Sound"		"phantom_secondgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_4_resume"
+		"Sound"		"phantom_fourthgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_turbo"
+		"Sound"		"truck_turbo_on"
+		"Min_Time"	"2.5"
+	}
+	"State"
+	{
+		"Name"		"ss_slowdown"
+		"Sound"		"phantom_throttleoff_slowspeed"
+	}
+	"State"
+	{
+		"Name"		"ss_start_water"
+		"Sound"		"phantom_start_in_water"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_0_resume"
+		"Sound"		"phantom_engine_idle"
+		"Min_Time"	"0.75"
+	}
+	"State"
+	{
+		"Name"		"ss_shutdown_water"
+		"Sound"		"phantom_stall_in_water"
+	}
+	"State"
+	{
+		"Name"		"ss_gear_4"
+		"Sound"		"phantom_fourthgear"
+		"Min_Time"	"0.5"
+	}
+	"State"
+	{
+		"Name"		"ss_slowdown_highspeed"
+		"Sound"		"phantom_throttleoff_fastspeed"
+	}
+	"CrashSound"
+	{
+		"Min_Speed"			"350"
+		"Min_Speed_Change"	"250"
+		"Sound"				"atv_impact_medium"
+		"Gear_Limit"		"1"
+	}
+	"CrashSound"
+	{
+		"Min_Speed"			"450"
+		"Min_Speed_Change"	"350"
+		"Sound"				"atv_impact_heavy"
+	}
+
+	"Skid_LowFriction"		"atv_skid_lowfriction"
+	"Skid_NormalFriction"	"atv_skid_normalfriction"
+	"Skid_HighFriction"		"atv_skid_highfriction"
+}

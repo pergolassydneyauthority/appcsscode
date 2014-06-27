@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/sierra/tex_0254_0"
+	"$bumpmap" "models/tdmcars/sierra/tex_0254_0_nrm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 8
+}

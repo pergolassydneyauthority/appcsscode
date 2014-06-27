@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/ken_t800/803d9b31_dds"
+	"$blendtintbybasealpha" 1
+}

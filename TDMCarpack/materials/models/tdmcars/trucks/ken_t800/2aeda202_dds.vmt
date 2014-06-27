@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/ken_t800/2aeda202_dds"
+	"$bumpmap" "models/tdmcars/trucks/ken_t800/2aeda202_nrm"
+	"$blendtintbybasealpha" 1
+	"$phong" 1
+	"$phongexponent" 20
+	"$phongboost"	1.5
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.7 0.7 0.7]"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/fre_argosy/a2df99ff"
+	"$bumpmap" "models/tdmcars/trucks/fre_argosy/skin_nrm"
+	"$nodecal" "1"
+	"$BasemapAlphaPhongMask" "1"
+	"$phong" "1" 
+	"$phongboost" "0.2" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 2
+	"$colorfix" "{255 255 255}"
+	"$detail" "models/tdmcars/trucks/fre_argosy/a2df99ff_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "100"
+	"$detailblendmode" "1"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

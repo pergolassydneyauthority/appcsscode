@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/ken_t800/846fb585_dds"
+	"$bumpmap" "models/tdmcars/trucks/ken_t800/846fb585_nrm"
+	"$blendtintbybasealpha" 1
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.8" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 5
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

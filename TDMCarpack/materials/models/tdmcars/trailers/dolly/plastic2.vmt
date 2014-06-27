@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 60 60 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/trailers/dolly/plastic2"
+	"$bumpmap" "models/tdmcars/trailers/dolly/plastic2_nrm"
+	"$blendtintbybasealpha" 1
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" ".1" 
+	"$phongfresnelranges" "[.5 .2 2]" 
+	"$phongexponent" 3
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trailers/cartrailer/vehicle_generic_tyrewallblack"
+	"$bumpmap" "models/tdmcars/trailers/cartrailer/vehicle_generic_tyrewall_normal"
+	"$nodecal" "1"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.2" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 20
+	"$rimmask" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
