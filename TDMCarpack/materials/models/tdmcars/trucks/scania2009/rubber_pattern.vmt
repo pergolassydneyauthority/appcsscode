@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/scania2009/rubber_pattern"
+	"$bumpmap" "models/tdmcars/trucks/scania2009/rubber_pattern_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.2" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 70
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

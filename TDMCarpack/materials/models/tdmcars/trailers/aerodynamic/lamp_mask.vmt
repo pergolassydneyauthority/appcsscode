@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trailers/aerodynamic/lamp_mask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$basealphaenvmapmask" 1
+	"$nodecal" "1"
+}

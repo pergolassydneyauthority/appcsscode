@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/scania2009/dashboard"
+	"$bumpmap" "models/tdmcars/shared/glass_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.6" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 20
+	"$detail" "models/tdmcars/trucks/scania2009/dashboard_emissive"
+	"$detailscale" "1"
+	"$detailblendfactor" "70"
+	"$detailblendmode" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

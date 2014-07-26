@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 0.4 0.4 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/trucks/scania2009/leather1"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".01" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 2
+	"$colorfix" "{25 25 25}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
