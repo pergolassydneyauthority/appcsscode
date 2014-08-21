@@ -23,4 +23,16 @@ ent:SetPoseParameter("boost_gauge", ent.Cars_Power)
 end
 end
 end)
+hook.Add("Think", "TDMAirbrake_VeyronSS", function()
+for _, ent in pairs(ents.FindByClass("prop_vehicle_jeep*")) do
+if ent:GetModel() == "models/tdmcars/bug_veyronss.mdl" then
+local AirBrk = 0
+if IsValid(ent:GetDriver()) then
+if ent:GetDriver():KeyDown(IN_BACK) and ent:GetVelocity():Length() > 900 then AirBrk = 1 end
+end
+ent.AirBrake = Lerp(0.2, ent.AirBrake or 1, AirBrk)
+ent:SetPoseParameter("airbrake_pose", ent.AirBrake)
+end
+end
+end)
 end

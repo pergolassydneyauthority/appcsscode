@@ -1,4 +1,4 @@
-// veyronss, created by TDM in 07/24/14 19:01:51, using Vehicle Controller (VCMod).
+// veyronss, created by TDM in 08/16/14 15:30:12, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,7 +6,7 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -4 2"
+		"MassCenterOverride"	"0 -5 -2"
 		"MassOverride"			"1996"
 		"AddGravity"			"1"
 		"MaxAngularVelocity"	"720"
@@ -45,7 +45,7 @@
 		"SteeringRestRateFast"				"2"
 		"TurnThrottleReduceSlow"			"0.01"
 		"TurnThrottleReduceFast"			"0.6"
-		"BrakeSteeringRateFactor"			"2.5"
+		"BrakeSteeringRateFactor"			"1.8"
 		"ThrottleSteeringRestRateFactor"	"2"
 		"BoostSteeringRestRateFactor"		"1.7"
 		"BoostSteeringRateFactor"			"1.7"
@@ -70,7 +70,7 @@
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"90"
+			"SpringConstant"				"75"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"7"
@@ -94,7 +94,7 @@
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"110"
+			"SpringConstant"				"98"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"7"

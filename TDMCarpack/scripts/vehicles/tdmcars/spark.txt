@@ -189,7 +189,7 @@
 	"State"
 	{
 		"Name"		"SS_SLOWDOWN_HIGHSPEED"
-		"Sound"		"vehicles\tdmcars\spark\throttle_off.mp3"
+		"Sound"		"vehicles\tdmcars\spark\throttle_off.wav"
 		"Min_Time"	"0"
 	}
 	"State"

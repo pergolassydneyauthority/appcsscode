@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/she_1000/wheel"
+	"$bumpmap" "models/tdmcars/she_1000/wheel_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "2" 
+	"$phongfresnelranges" "[3 1 1]" 
+	"$phongexponent" 150
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 0.5]"
+	"$halflambert" 1
+	"$colorfix" "{200 200 200}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

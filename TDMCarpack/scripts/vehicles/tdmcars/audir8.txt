@@ -141,7 +141,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_2_RESUME"
-		"Sound"		"vehicles\tdmcars\audir8\third.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\third.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -171,7 +171,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_1_RESUME"
-		"Sound"		"vehicles\tdmcars\audir8\first.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\first.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -183,13 +183,13 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_1"
-		"Sound"		"vehicles\tdmcars\audir8\first.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\first.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_SLOWDOWN_HIGHSPEED"
-		"Sound"		"vehicles\tdmcars\audir8\throttle_off.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\throttle_off.wav"
 		"Min_Time"	"0"
 	}
 	"State"
@@ -213,7 +213,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_3"
-		"Sound"		"vehicles\tdmcars\audir8\third.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\third.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -225,13 +225,13 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_0"
-		"Sound"		"vehicles\tdmcars\audir8\first.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\first.wav"
 		"Min_Time"	"0.75"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_2"
-		"Sound"		"vehicles\tdmcars\audir8\second.mp3"
+		"Sound"		"vehicles\tdmcars\audir8\second.wav"
 		"Min_Time"	"1.25"
 	}
 	"State"

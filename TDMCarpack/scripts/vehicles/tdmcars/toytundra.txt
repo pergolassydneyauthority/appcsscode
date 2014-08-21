@@ -114,17 +114,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.3"
+		"Max_Speed"				"0.33"
 		"Speed_Approach_Factor"	"0.08"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.5"
+		"Max_Speed"				"0.45"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.65"
+		"Max_Speed"				"0.58"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"

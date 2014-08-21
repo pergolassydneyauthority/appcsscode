@@ -1,4 +1,4 @@
-// f350, created by TDM in 03/06/14 23:56:34, using Vehicle Controller (VCMod).
+// f350, created by TDM in 08/21/14 23:30:09, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,15 +6,15 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.8"
-		"MassCenterOverride"	"0 -10 3"
+		"MassCenterOverride"	"0 -4 -1"
 		"MassOverride"			"2470"
-		"AddGravity"			"0.7"
+		"AddGravity"			"0.5"
 		"MaxAngularVelocity"	"720"
 	}
 	"Engine"
 	{
 		"HorsePower"			"385"
-		"MaxRPM"				"4400"
+		"MaxRPM"				"3600"
 		"MaxSpeed"				"80"
 		"MaxReverseSpeed"		"20"
 		"AutobrakeSpeedGain"	"0"
@@ -62,7 +62,7 @@
 			"Radius"						"20.7"
 			"Mass"							"400"
 			"Inertia"						"1.6"
-			"Damping"						"0.4499"
+			"Damping"						"0.45"
 			"RotDamping"					"0"
 			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
@@ -100,7 +100,7 @@
 			"SpringDampingCompression"		"4"
 			"MaxBodyForce"					"70"
 		}
-		"TorqueFactor"						"3"
+		"TorqueFactor"						"2"
 		"BrakeFactor"						"0.6"
 	}
 }
@@ -114,17 +114,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.55"
+		"Max_Speed"				"0.35"
 		"Speed_Approach_Factor"	"0.08"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.75"
+		"Max_Speed"				"0.48"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.9"
+		"Max_Speed"				"0.6"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"

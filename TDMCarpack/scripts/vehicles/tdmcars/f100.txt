@@ -1,4 +1,4 @@
-// f100, created by Jeremy Clarkson in 11/11/13 21:49:07, using Vehicle Controller (VCMod).
+// f100, created by TDM in 08/11/14 23:18:06, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,7 +6,7 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -10 30"
+		"MassCenterOverride"	"0 -5 2"
 		"MassOverride"			"1470"
 		"AddGravity"			"0.5"
 		"MaxAngularVelocity"	"720"
@@ -21,7 +21,7 @@
 		"AutobrakeSpeedFactor"	"3"
 		"Autotransmission"		"0"
 		"AxleRatio"				"7"
-		"Gear"					"3.2"
+		"Gear"					"4"
 		"Gear"					"2.4"
 		"Gear"					"1.5"
 		"Gear"					"1"
@@ -33,15 +33,15 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"15"
+		"DegreesFast"						"6"
 		"DegreesBoost"						"11"
-		"FastDampen"						"0"
-		"SteeringExponent"					"1.4"
-		"SlowCarSpeed"						"14"
+		"FastDampen"						"50"
+		"SteeringExponent"					"0"
+		"SlowCarSpeed"						"5"
 		"FastCarSpeed"						"60"
-		"SlowSteeringRate"					"3"
+		"SlowSteeringRate"					"2.5"
 		"FastSteeringRate"					"1.5"
-		"SteeringRestRateSlow"				"3"
+		"SteeringRestRateSlow"				"2.5"
 		"SteeringRestRateFast"				"1.5"
 		"TurnThrottleReduceSlow"			"0.01"
 		"TurnThrottleReduceFast"			"0.5"
@@ -87,7 +87,7 @@
 			"Mass"							"350"
 			"Inertia"						"0"
 			"Damping"						"0.4"
-			"RotDamping"					"0.4"
+			"RotDamping"					"0.99"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
@@ -98,7 +98,7 @@
 			"SpringDamping"					"0.1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"3"
-			"MaxBodyForce"					"18"
+			"MaxBodyForce"					"70"
 		}
 		"TorqueFactor"						"0.7"
 		"BrakeFactor"						"0.6"

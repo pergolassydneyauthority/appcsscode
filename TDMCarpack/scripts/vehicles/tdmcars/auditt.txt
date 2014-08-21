@@ -179,7 +179,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_1"
-		"Sound"		"vehicles\tdmcars\auditt\first.mp3"
+		"Sound"		"vehicles\tdmcars\auditt\first.wav"
 		"Min_Time"	"0"
 	}
 	"State"

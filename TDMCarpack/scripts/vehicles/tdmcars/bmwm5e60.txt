@@ -1,4 +1,4 @@
-// bmwm5e60, created by Jeremy Clarkson in 12/12/13 21:19:47, using Vehicle Controller (VCMod).
+// bmwm5e60, created by TDM in 08/21/14 22:39:23, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,22 +6,22 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -8 15"
-		"MassOverride"			"1700"
-		"AddGravity"			"0.83"
+		"MassCenterOverride"	"0 -6 3"
+		"MassOverride"			"1820"
+		"AddGravity"			"0.54"
 		"MaxAngularVelocity"	"720"
 	}
 	"Engine"
 	{
-		"HorsePower"			"270"
-		"MaxRPM"				"3800"
-		"MaxSpeed"				"87"
-		"MaxReverseSpeed"		"20"
-		"AutobrakeSpeedGain"	"1.1"
-		"AutobrakeSpeedFactor"	"3"
+		"HorsePower"			"500"
+		"MaxRPM"				"3600"
+		"MaxSpeed"				"119"
+		"MaxReverseSpeed"		"29"
+		"AutobrakeSpeedGain"	"0"
+		"AutobrakeSpeedFactor"	"0"
 		"Autotransmission"		"0"
-		"AxleRatio"				"4.56"
-		"Gear"					"3.2"
+		"AxleRatio"				"5.85"
+		"Gear"					"3.3"
 		"Gear"					"2.4"
 		"Gear"					"1.5"
 		"Gear"					"1"
@@ -33,24 +33,24 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"18"
+		"DegreesFast"						"9"
 		"DegreesBoost"						"11"
-		"FastDampen"						"0"
-		"SteeringExponent"					"1.4"
-		"SlowCarSpeed"						"20"
-		"FastCarSpeed"						"45"
-		"SlowSteeringRate"					"4"
-		"FastSteeringRate"					"2"
-		"SteeringRestRateSlow"				"4"
-		"SteeringRestRateFast"				"2"
+		"FastDampen"						"60"
+		"SteeringExponent"					"0"
+		"SlowCarSpeed"						"4"
+		"FastCarSpeed"						"55"
+		"SlowSteeringRate"					"2.7"
+		"FastSteeringRate"					"1.8"
+		"SteeringRestRateSlow"				"2.7"
+		"SteeringRestRateFast"				"1.8"
 		"TurnThrottleReduceSlow"			"0.01"
-		"TurnThrottleReduceFast"			"0.09"
-		"BrakeSteeringRateFactor"			"5"
-		"ThrottleSteeringRestRateFactor"	"2"
+		"TurnThrottleReduceFast"			"0.6"
+		"BrakeSteeringRateFactor"			"1.7"
+		"ThrottleSteeringRestRateFactor"	"1.8"
 		"BoostSteeringRestRateFactor"		"1.7"
 		"BoostSteeringRateFactor"			"1.7"
 
-		"PowerSlideAccel"					"250"
+		"PowerSlideAccel"					"180"
 
 		"SkidAllowed"						"1"
 		"DustCloud"							"1"
@@ -59,49 +59,49 @@
 	{
 		"Wheel"
 		{
-			"Radius"						"16"
-			"Mass"							"200"
-			"Inertia"						"1.8"
-			"Damping"						"0.1"
-			"RotDamping"					"0.1"
+			"Radius"						"15.5"
+			"Mass"							"230"
+			"Inertia"						"1.1"
+			"Damping"						"0"
+			"RotDamping"					"0"
 			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"55"
+			"SpringConstant"				"40"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"6"
-			"MaxBodyForce"					"11"
+			"MaxBodyForce"					"19"
 		}
-		"TorqueFactor"						"0.3"
-		"BrakeFactor"						"0.4"
+		"TorqueFactor"						"0.1"
+		"BrakeFactor"						"0.52"
 	}
 	"Axle"
 	{
 		"Wheel"
 		{
-			"Radius"						"16"
-			"Mass"							"350"
-			"Inertia"						"1.5"
-			"Damping"						"0.4"
-			"RotDamping"					"0.1"
+			"Radius"						"15.5"
+			"Mass"							"320"
+			"Inertia"						"1.1"
+			"Damping"						"0.03"
+			"RotDamping"					"0.99"
 			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"120"
+			"SpringConstant"				"82"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"6"
-			"MaxBodyForce"					"14"
+			"MaxBodyForce"					"22"
 		}
-		"TorqueFactor"						"0.9"
-		"BrakeFactor"						"0.6"
+		"TorqueFactor"						"0.5"
+		"BrakeFactor"						"0.55"
 	}
 }
 
@@ -114,17 +114,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.3"
+		"Max_Speed"				"0.28"
 		"Speed_Approach_Factor"	"0.08"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.4"
+		"Max_Speed"				"0.41"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.5"
+		"Max_Speed"				"0.6"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"
@@ -201,8 +201,8 @@
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\slsamg\enginestart.mp3"
-		"Min_Time"	"0.3"
+		"Sound"		"vehicles\tdmcars\bmwm5e60\enginestart.mp3"
+		"Min_Time"	"3"
 	}
 	"State"
 	{
@@ -255,7 +255,7 @@
 		"Gear_Limit"		"0"
 	}
 
-	"Skid_LowFriction"		"tdmcars_skid"
-	"Skid_NormalFriction"	"tdmcars_skid"
-	"Skid_HighFriction"		"tdmcars_skid"
+	"Skid_LowFriction"		""
+	"Skid_NormalFriction"	""
+	"Skid_HighFriction"		""
 }
