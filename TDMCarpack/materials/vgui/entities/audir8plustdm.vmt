@@ -1,0 +1,7 @@
+"UnlitGeneric" 
+{ 
+	"$basetexture"		"vgui/entities/audir8plustdm"
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1 
+	"$nolod" 			1
+} 
