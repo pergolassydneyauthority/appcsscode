@@ -1,4 +1,4 @@
-// laferrari, created by TDM in 07/24/14 23:25:01, using Vehicle Controller (VCMod).
+// laferrari, created by TDM in 10/04/14 17:27:34, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,7 +6,7 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -9 1"
+		"MassCenterOverride"	"0 -7 -2"
 		"MassOverride"			"1375"
 		"AddGravity"			"1.2"
 		"MaxAngularVelocity"	"720"
@@ -60,8 +60,8 @@
 		"Wheel"
 		{
 			"Radius"						"16"
-			"Mass"							"300"
-			"Inertia"						"1.1"
+			"Mass"							"220"
+			"Inertia"						"1.6"
 			"Damping"						"0"
 			"RotDamping"					"0"
 			"Material"						"phx_rubbertire2"
@@ -70,23 +70,23 @@
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"190"
+			"SpringConstant"				"120"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"7"
-			"MaxBodyForce"					"25"
+			"MaxBodyForce"					"36"
 		}
 		"TorqueFactor"						"0.1"
-		"BrakeFactor"						"0.62"
+		"BrakeFactor"						"0.66"
 	}
 	"Axle"
 	{
 		"Wheel"
 		{
 			"Radius"						"18"
-			"Mass"							"400"
-			"Inertia"						"1.1"
-			"Damping"						"0.3"
+			"Mass"							"300"
+			"Inertia"						"1.6"
+			"Damping"						"0.15"
 			"RotDamping"					"0.9"
 			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
@@ -94,14 +94,14 @@
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"300"
+			"SpringConstant"				"150"
 			"SpringDamping"					"1"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"7"
-			"MaxBodyForce"					"30"
+			"MaxBodyForce"					"55"
 		}
 		"TorqueFactor"						"0.5"
-		"BrakeFactor"						"0.62"
+		"BrakeFactor"						"0.66"
 	}
 }
 

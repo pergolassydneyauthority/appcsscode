@@ -1,4 +1,4 @@
-// vwcamper, created by TDM in 06/27/14 16:52:05, using Vehicle Controller (VCMod).
+// vwcamper, created by TDM in 10/13/14 02:39:10, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,7 +6,7 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -5 3"
+		"MassCenterOverride"	"0 -6 2"
 		"MassOverride"			"1200"
 		"AddGravity"			"0.5"
 		"MaxAngularVelocity"	"720"
@@ -31,7 +31,7 @@
 		"DegreesSlow"						"40"
 		"DegreesFast"						"11"
 		"DegreesBoost"						"11"
-		"FastDampen"						"60"
+		"FastDampen"						"35"
 		"SteeringExponent"					"0"
 		"SlowCarSpeed"						"2"
 		"FastCarSpeed"						"32"
@@ -55,7 +55,7 @@
 	{
 		"Wheel"
 		{
-			"Radius"						"14.5"
+			"Radius"						"16"
 			"Mass"							"400"
 			"Inertia"						"0.6"
 			"Damping"						"0"
@@ -70,7 +70,7 @@
 			"SpringDamping"					"0.7"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"4.5"
-			"MaxBodyForce"					"16"
+			"MaxBodyForce"					"20"
 		}
 		"TorqueFactor"						"0"
 		"BrakeFactor"						"0.5"
@@ -79,7 +79,7 @@
 	{
 		"Wheel"
 		{
-			"Radius"						"14.5"
+			"Radius"						"16"
 			"Mass"							"450"
 			"Inertia"						"0.8"
 			"Damping"						"0.05"
@@ -94,7 +94,7 @@
 			"SpringDamping"					"0.7"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"4.5"
-			"MaxBodyForce"					"19"
+			"MaxBodyForce"					"26"
 		}
 		"TorqueFactor"						"0.7"
 		"BrakeFactor"						"0.4"
