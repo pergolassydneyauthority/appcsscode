@@ -1,4 +1,4 @@
-// scaniafire, created by TDM in 11/30/14 19:09:24, using Vehicle Controller (VCMod).
+// scaniafire, created by no in 11/30/14 20:42:00, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -33,22 +33,22 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"5"
+		"DegreesFast"						"7"
 		"DegreesBoost"						"11"
 		"FastDampen"						"80"
 		"SteeringExponent"					"0"
-		"SlowCarSpeed"						"5"
-		"FastCarSpeed"						"40"
+		"SlowCarSpeed"						"8"
+		"FastCarSpeed"						"60"
 		"SlowSteeringRate"					"2"
-		"FastSteeringRate"					"1.2"
+		"FastSteeringRate"					"1.5"
 		"SteeringRestRateSlow"				"2"
-		"SteeringRestRateFast"				"1.2"
+		"SteeringRestRateFast"				"1.5"
 		"TurnThrottleReduceSlow"			"0.01"
 		"TurnThrottleReduceFast"			"0.6"
 		"BrakeSteeringRateFactor"			"2"
-		"ThrottleSteeringRestRateFactor"	"2"
-		"BoostSteeringRestRateFactor"		"1.2"
-		"BoostSteeringRateFactor"			"1.2"
+		"ThrottleSteeringRestRateFactor"	"2.1"
+		"BoostSteeringRestRateFactor"		"1.6"
+		"BoostSteeringRateFactor"			"1.6"
 
 		"PowerSlideAccel"					"250"
 
@@ -63,7 +63,7 @@
 			"Mass"							"350"
 			"Inertia"						"0"
 			"Damping"						"0"
-			"RotDamping"					"0"
+			"RotDamping"					"0.2"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
@@ -76,7 +76,7 @@
 			"SpringDampingCompression"		"3"
 			"MaxBodyForce"					"14"
 		}
-		"TorqueFactor"						"0.4"
+		"TorqueFactor"						"0.5"
 		"BrakeFactor"						"0.5"
 	}
 	"Axle"
@@ -87,7 +87,7 @@
 			"Mass"							"500"
 			"Inertia"						"0"
 			"Damping"						"0"
-			"RotDamping"					"0"
+			"RotDamping"					"0.8"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
