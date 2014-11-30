@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/tdmcars/scania_firetruck/light_orange"
 	"$bumpmap" "models/tdmcars/scania_firetruck/light_nrm"
+	"$nodecal" "1"
 	"$halflambert" 1
 	"$phong" "1" 
 	"$phongboost" "3" 
@@ -14,4 +15,13 @@
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[0.3 0.3 0.3]"
 	"$normalmapalphaenvmapmask" 1
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
 }
