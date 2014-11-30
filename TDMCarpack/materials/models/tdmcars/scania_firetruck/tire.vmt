@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/scania_firetruck/tire"
+	"$bumpmap" "models/tdmcars/scania_firetruck/tire_nrm"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.3"	
+	"$phongfresnelranges"	"[0.1 2 0]"
+}

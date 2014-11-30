@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/scania_firetruck/grille"
+	"$bumpmap" "models/tdmcars/scania_firetruck/grille_nrm"
+	"$halflambert" 1
+	"$phong" "1" 
+	"$phongboost" "0.5" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 100
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.05 0.05 .05]"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,6 +1,7 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/tdmcars/shared/bumper"
+	"$basetexture" "models/tdmcars/shared/skin_nm"
 	"$nodecal" "1"
 	"$halflambert" 1
 	"$phong" "1" 
