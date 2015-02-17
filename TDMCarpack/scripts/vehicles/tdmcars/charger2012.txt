@@ -1,4 +1,4 @@
-// charger2012, created by TDM in 10/13/14 00:24:51, using Vehicle Controller (VCMod).
+// charger2012, created by TDM in 12/02/14 23:13:10, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,22 +6,22 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -5 2"
+		"MassCenterOverride"	"0 -10 6"
 		"MassOverride"			"1980"
-		"AddGravity"			"0.6"
-		"MaxAngularVelocity"	"720"
+		"AddGravity"			"0.8"
+		"MaxAngularVelocity"	"420"
 	}
 	"Engine"
 	{
 		"HorsePower"			"465"
-		"MaxRPM"				"3500"
+		"MaxRPM"				"6000"
 		"MaxSpeed"				"102"
 		"MaxReverseSpeed"		"27"
 		"AutobrakeSpeedGain"	"1.1"
-		"AutobrakeSpeedFactor"	"3"
+		"AutobrakeSpeedFactor"	"6"
 		"Autotransmission"		"0"
-		"AxleRatio"				"5.6"
-		"Gear"					"3.2"
+		"AxleRatio"				"7.2"
+		"Gear"					"4.8"
 
 		"ShiftUpRPM"			"3800"
 		"ShiftDownRPM"			"1600"
@@ -31,20 +31,20 @@
 		"DegreesSlow"						"40"
 		"DegreesFast"						"7"
 		"DegreesBoost"						"11"
-		"FastDampen"						"75"
+		"FastDampen"						"90"
 		"SteeringExponent"					"0"
 		"SlowCarSpeed"						"2"
 		"FastCarSpeed"						"60"
 		"SlowSteeringRate"					"2.9"
-		"FastSteeringRate"					"1.7"
+		"FastSteeringRate"					"1.8"
 		"SteeringRestRateSlow"				"2.9"
-		"SteeringRestRateFast"				"1.7"
+		"SteeringRestRateFast"				"1.8"
 		"TurnThrottleReduceSlow"			"0.01"
 		"TurnThrottleReduceFast"			"0.6"
 		"BrakeSteeringRateFactor"			"2.9"
-		"ThrottleSteeringRestRateFactor"	"1.7"
-		"BoostSteeringRestRateFactor"		"1.7"
-		"BoostSteeringRateFactor"			"1.7"
+		"ThrottleSteeringRestRateFactor"	"1.8"
+		"BoostSteeringRestRateFactor"		"1.8"
+		"BoostSteeringRateFactor"			"1.8"
 
 		"PowerSlideAccel"					"250"
 
@@ -57,7 +57,7 @@
 		{
 			"Radius"						"17"
 			"Mass"							"260"
-			"Inertia"						"0.6"
+			"Inertia"						"-1"
 			"Damping"						"0"
 			"RotDamping"					"0"
 			"Material"						"phx_rubbertire2"
@@ -67,13 +67,13 @@
 		"Suspension"
 		{
 			"SpringConstant"				"45"
-			"SpringDamping"					"1"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"6.6"
-			"MaxBodyForce"					"22"
+			"SpringDampingCompression"		"4.7"
+			"MaxBodyForce"					"100"
 		}
-		"TorqueFactor"						"0"
-		"BrakeFactor"						"0.54"
+		"TorqueFactor"						"0.05"
+		"BrakeFactor"						"0.6"
 	}
 	"Axle"
 	{
@@ -81,9 +81,9 @@
 		{
 			"Radius"						"17"
 			"Mass"							"250"
-			"Inertia"						"0.8"
+			"Inertia"						"-0.7"
 			"Damping"						"0.4"
-			"RotDamping"					"0.99"
+			"RotDamping"					"0.9"
 			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
@@ -91,13 +91,13 @@
 		"Suspension"
 		{
 			"SpringConstant"				"65"
-			"SpringDamping"					"1"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"6.6"
-			"MaxBodyForce"					"26"
+			"SpringDampingCompression"		"4.7"
+			"MaxBodyForce"					"120"
 		}
 		"TorqueFactor"						"0.65"
-		"BrakeFactor"						"0.6"
+		"BrakeFactor"						"0.55"
 	}
 }
 

@@ -1,12 +1,12 @@
-// raptorsvt, created by Jeremy Clarkson in 11/11/13 21:50:48, using Vehicle Controller (VCMod).
+// raptorsvt, created by TDM in 02/17/15 16:07:51, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
 	"WheelsPerAxle"		"2"
 	"Body"
 	{
-		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -10 30"
+		"CounterTorqueFactor"	"0.85"
+		"MassCenterOverride"	"0 -2 5"
 		"MassOverride"			"2000"
 		"AddGravity"			"0.5"
 		"MaxAngularVelocity"	"720"
@@ -14,11 +14,11 @@
 	"Engine"
 	{
 		"HorsePower"			"411"
-		"MaxRPM"				"5000"
+		"MaxRPM"				"3900"
 		"MaxSpeed"				"70"
 		"MaxReverseSpeed"		"22"
-		"AutobrakeSpeedGain"	"1.1"
-		"AutobrakeSpeedFactor"	"3"
+		"AutobrakeSpeedGain"	"0"
+		"AutobrakeSpeedFactor"	"0"
 		"Autotransmission"		"0"
 		"AxleRatio"				"6"
 		"Gear"					"3.2"
@@ -33,15 +33,15 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"15"
+		"DegreesFast"						"10"
 		"DegreesBoost"						"11"
-		"FastDampen"						"0"
-		"SteeringExponent"					"1.4"
+		"FastDampen"						"70"
+		"SteeringExponent"					"0"
 		"SlowCarSpeed"						"12"
 		"FastCarSpeed"						"60"
-		"SlowSteeringRate"					"3"
+		"SlowSteeringRate"					"2.7"
 		"FastSteeringRate"					"1.5"
-		"SteeringRestRateSlow"				"3"
+		"SteeringRestRateSlow"				"2.7"
 		"SteeringRestRateFast"				"1.5"
 		"TurnThrottleReduceSlow"			"0.01"
 		"TurnThrottleReduceFast"			"0.5"
@@ -60,23 +60,23 @@
 		"Wheel"
 		{
 			"Radius"						"20.7"
-			"Mass"							"300"
-			"Inertia"						"0"
-			"Damping"						"0"
-			"RotDamping"					"0"
-			"Material"						"jeeptire"
+			"Mass"							"420"
+			"Inertia"						"-5"
+			"Damping"						"0.1"
+			"RotDamping"					"1"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"27"
-			"SpringDamping"					"0.1"
+			"SpringConstant"				"22"
+			"SpringDamping"					"2"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"5"
-			"MaxBodyForce"					"15"
+			"SpringDampingCompression"		"3"
+			"MaxBodyForce"					"1500"
 		}
-		"TorqueFactor"						"0.9"
+		"TorqueFactor"						"0.7"
 		"BrakeFactor"						"0.4"
 	}
 	"Axle"
@@ -84,23 +84,23 @@
 		"Wheel"
 		{
 			"Radius"						"20.7"
-			"Mass"							"700"
-			"Inertia"						"0"
-			"Damping"						"0.6"
-			"RotDamping"					"0.1"
-			"Material"						"jeeptire"
+			"Mass"							"310"
+			"Inertia"						"-0.02"
+			"Damping"						"0.3"
+			"RotDamping"					"3.5"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"37"
-			"SpringDamping"					"0.1"
+			"SpringConstant"				"28"
+			"SpringDamping"					"2"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"5"
-			"MaxBodyForce"					"28"
+			"SpringDampingCompression"		"3"
+			"MaxBodyForce"					"2900"
 		}
-		"TorqueFactor"						"0.9"
+		"TorqueFactor"						"1.1"
 		"BrakeFactor"						"0.6"
 	}
 }
@@ -114,17 +114,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.25"
+		"Max_Speed"				"0.45"
 		"Speed_Approach_Factor"	"0.08"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.35"
+		"Max_Speed"				"0.67"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.5"
+		"Max_Speed"				"0.85"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"

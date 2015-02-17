@@ -1,4 +1,4 @@
-// chevelless, created by Jeremy Clarkson in 08/11/13 19:50:34, using Vehicle Controller (VCMod).
+// chevelless, created by TDM in 02/01/15 17:13:55, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
@@ -6,26 +6,22 @@
 	"Body"
 	{
 		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -10 18"
-		"MassOverride"			"1700"
+		"MassCenterOverride"	"0 -8 10"
+		"MassOverride"			"1723"
 		"AddGravity"			"0.8"
-		"MaxAngularVelocity"	"720"
+		"MaxAngularVelocity"	"420"
 	}
 	"Engine"
 	{
-		"HorsePower"			"454"
-		"MaxRPM"				"5000"
-		"MaxSpeed"				"68"
-		"MaxReverseSpeed"		"22"
+		"HorsePower"			"450"
+		"MaxRPM"				"6000"
+		"MaxSpeed"				"93"
+		"MaxReverseSpeed"		"23"
 		"AutobrakeSpeedGain"	"1.1"
-		"AutobrakeSpeedFactor"	"3"
+		"AutobrakeSpeedFactor"	"6"
 		"Autotransmission"		"0"
 		"AxleRatio"				"4.56"
-		"Gear"					"3.2"
-		"Gear"					"2.4"
-		"Gear"					"1.5"
-		"Gear"					"1"
-		"Gear"					"0.84"
+		"Gear"					"4.8"
 
 		"ShiftUpRPM"			"3800"
 		"ShiftDownRPM"			"1600"
@@ -33,22 +29,22 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"12"
+		"DegreesFast"						"7"
 		"DegreesBoost"						"11"
 		"FastDampen"						"0"
-		"SteeringExponent"					"1.4"
-		"SlowCarSpeed"						"8"
-		"FastCarSpeed"						"55"
-		"SlowSteeringRate"					"3"
-		"FastSteeringRate"					"1"
-		"SteeringRestRateSlow"				"3"
-		"SteeringRestRateFast"				"1"
+		"SteeringExponent"					"0"
+		"SlowCarSpeed"						"2"
+		"FastCarSpeed"						"60"
+		"SlowSteeringRate"					"2.9"
+		"FastSteeringRate"					"1.8"
+		"SteeringRestRateSlow"				"2.9"
+		"SteeringRestRateFast"				"1.8"
 		"TurnThrottleReduceSlow"			"0.01"
-		"TurnThrottleReduceFast"			"0.3"
-		"BrakeSteeringRateFactor"			"3"
-		"ThrottleSteeringRestRateFactor"	"2"
-		"BoostSteeringRestRateFactor"		"1.7"
-		"BoostSteeringRateFactor"			"1.7"
+		"TurnThrottleReduceFast"			"0.6"
+		"BrakeSteeringRateFactor"			"2.9"
+		"ThrottleSteeringRestRateFactor"	"1.8"
+		"BoostSteeringRestRateFactor"		"1.8"
+		"BoostSteeringRateFactor"			"1.8"
 
 		"PowerSlideAccel"					"250"
 
@@ -60,21 +56,21 @@
 		"Wheel"
 		{
 			"Radius"						"16"
-			"Mass"							"100"
-			"Inertia"						"0.7"
+			"Mass"							"240"
+			"Inertia"						"-3.4"
 			"Damping"						"0"
 			"RotDamping"					"0"
-			"Material"						"jeeptire"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"50"
-			"SpringDamping"					"0.1"
+			"SpringConstant"				"45"
+			"SpringDamping"					"0.4"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"4"
-			"MaxBodyForce"					"9"
+			"SpringDampingCompression"		"3.7"
+			"MaxBodyForce"					"170"
 		}
 		"TorqueFactor"						"0"
 		"BrakeFactor"						"0.6"
@@ -84,24 +80,24 @@
 		"Wheel"
 		{
 			"Radius"						"16"
-			"Mass"							"200"
-			"Inertia"						"0.8"
-			"Damping"						"0.3"
-			"RotDamping"					"0.1"
-			"Material"						"jeeptire"
+			"Mass"							"230"
+			"Inertia"						"-2.7"
+			"Damping"						"0.17"
+			"RotDamping"					"0.99"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"150"
+			"SpringConstant"				"65"
 			"SpringDamping"					"0.4"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"5"
-			"MaxBodyForce"					"12"
+			"SpringDampingCompression"		"3.7"
+			"MaxBodyForce"					"230"
 		}
-		"TorqueFactor"						"0.7"
-		"BrakeFactor"						"0.4"
+		"TorqueFactor"						"0.64"
+		"BrakeFactor"						"0.55"
 	}
 }
 
@@ -114,17 +110,17 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.3"
+		"Max_Speed"				"0.5"
 		"Speed_Approach_Factor"	"0.08"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.4"
+		"Max_Speed"				"0.64"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.5"
+		"Max_Speed"				"0.78"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"

@@ -4,11 +4,18 @@
 	"$bumpmap"    "models/tdmcars/shared/glass_nm"
 	"$nodecal" "1"
 	"$phong" 1
-	"$phongtint" "[1 1 1]"
-	"$phongexponent" 3
-	"$phongfresnelranges" "[0.8 0.8 2]"
+	"$phongboost" "0.1"
+	"$phongexponent" 70
+	"$phongfresnelranges" "[0.4 0.8 1]"
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.5 0.5 0.5]"
-	"$normalmapalphaenvmapmask" 1
-
+	"$envmaptint" "[0.04 0.04 0.04]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
 }

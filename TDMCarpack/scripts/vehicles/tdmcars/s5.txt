@@ -1,31 +1,27 @@
-// s5, created by TheDanishMaster FORZA5 in 06/06/13 18:07:32, using Vehicle Controller (VCMod).
+// s5, created by TDM in 12/19/14 00:28:05, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
 	"WheelsPerAxle"		"2"
 	"Body"
 	{
-		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -3 15"
-		"MassOverride"			"1300"
-		"AddGravity"			"0.5"
-		"MaxAngularVelocity"	"720"
+		"CounterTorqueFactor"	"0.7"
+		"MassCenterOverride"	"0 -10 7"
+		"MassOverride"			"1980"
+		"AddGravity"			"0.8"
+		"MaxAngularVelocity"	"350"
 	}
 	"Engine"
 	{
-		"HorsePower"			"450"
-		"MaxRPM"				"5000"
-		"MaxSpeed"				"150"
-		"MaxReverseSpeed"		"20"
+		"HorsePower"			"465"
+		"MaxRPM"				"6000"
+		"MaxSpeed"				"102"
+		"MaxReverseSpeed"		"27"
 		"AutobrakeSpeedGain"	"1.1"
-		"AutobrakeSpeedFactor"	"3"
+		"AutobrakeSpeedFactor"	"6"
 		"Autotransmission"		"0"
-		"AxleRatio"				"4.56"
-		"Gear"					"3.2"
-		"Gear"					"2.4"
-		"Gear"					"1.5"
-		"Gear"					"1"
-		"Gear"					"0.84"
+		"AxleRatio"				"7.2"
+		"Gear"					"4.8"
 
 		"ShiftUpRPM"			"3800"
 		"ShiftDownRPM"			"1600"
@@ -33,22 +29,22 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"25"
+		"DegreesFast"						"7"
 		"DegreesBoost"						"11"
-		"FastDampen"						"0"
-		"SteeringExponent"					"1.4"
-		"SlowCarSpeed"						"20"
-		"FastCarSpeed"						"45"
-		"SlowSteeringRate"					"2.2"
-		"FastSteeringRate"					"1.3"
-		"SteeringRestRateSlow"				"2.2"
-		"SteeringRestRateFast"				"1.3"
+		"FastDampen"						"90"
+		"SteeringExponent"					"0"
+		"SlowCarSpeed"						"2"
+		"FastCarSpeed"						"60"
+		"SlowSteeringRate"					"2.9"
+		"FastSteeringRate"					"1.8"
+		"SteeringRestRateSlow"				"2.9"
+		"SteeringRestRateFast"				"1.8"
 		"TurnThrottleReduceSlow"			"0.01"
-		"TurnThrottleReduceFast"			"0.8"
-		"BrakeSteeringRateFactor"			"4"
-		"ThrottleSteeringRestRateFactor"	"1.3"
-		"BoostSteeringRestRateFactor"		"1.7"
-		"BoostSteeringRateFactor"			"1.7"
+		"TurnThrottleReduceFast"			"0.6"
+		"BrakeSteeringRateFactor"			"2.9"
+		"ThrottleSteeringRestRateFactor"	"1.8"
+		"BoostSteeringRestRateFactor"		"1.8"
+		"BoostSteeringRateFactor"			"1.8"
 
 		"PowerSlideAccel"					"250"
 
@@ -60,48 +56,48 @@
 		"Wheel"
 		{
 			"Radius"						"15.5"
-			"Mass"							"100"
-			"Inertia"						"1.5"
-			"Damping"						"0.3"
-			"RotDamping"					"0.3"
-			"Material"						"jeeptire"
+			"Mass"							"220"
+			"Inertia"						"-2.1"
+			"Damping"						"0"
+			"RotDamping"					"0"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
 			"SpringConstant"				"90"
-			"SpringDamping"					"0.7"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"6"
-			"MaxBodyForce"					"10"
+			"MaxBodyForce"					"100"
 		}
-		"TorqueFactor"						"0.5"
+		"TorqueFactor"						"0.05"
 		"BrakeFactor"						"0.6"
 	}
 	"Axle"
 	{
 		"Wheel"
 		{
-			"Radius"						"15.5"
-			"Mass"							"150"
-			"Inertia"						"1.9"
-			"Damping"						"0.6"
-			"RotDamping"					"0.5"
-			"Material"						"jeeptire"
+			"Radius"						"15.66"
+			"Mass"							"250"
+			"Inertia"						"2.7"
+			"Damping"						"0.4"
+			"RotDamping"					"0.9"
+			"Material"						"phx_rubbertire2"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"100"
-			"SpringDamping"					"1"
+			"SpringConstant"				"150"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"6"
-			"MaxBodyForce"					"10"
+			"MaxBodyForce"					"120"
 		}
-		"TorqueFactor"						"0.5"
-		"BrakeFactor"						"0.6"
+		"TorqueFactor"						"0.65"
+		"BrakeFactor"						"0.55"
 	}
 }
 
@@ -109,33 +105,28 @@
 {
 	"Gear"
 	{
-		"Max_Speed"				"0.02"
+		"Max_Speed"				"0.06"
 		"Speed_Approach_Factor"	"1"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.2"
+		"Max_Speed"				"0.34"
+		"Speed_Approach_Factor"	"0.08"
+	}
+	"Gear"
+	{
+		"Max_Speed"				"0.43"
 		"Speed_Approach_Factor"	"0.05"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.38"
-		"Speed_Approach_Factor"	"0.052"
+		"Max_Speed"				"0.6"
+		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.49"
-		"Speed_Approach_Factor"	"0.034"
-	}
-	"Gear"
-	{
-		"Max_Speed"				"1.5"
-		"Speed_Approach_Factor"	"0.033"
-	}
-	"Gear"
-	{
-		"Max_Speed"				"2"
-		"Speed_Approach_Factor"	"0.03"
+		"Max_Speed"				"1"
+		"Speed_Approach_Factor"	"0.01"
 	}
 	"State"
 	{
@@ -146,7 +137,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_2_RESUME"
-		"Sound"		"vehicles\tdmcars\s5\noshift.wav"
+		"Sound"		"vehicles\tdmcars\s5\third.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -158,7 +149,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_3_RESUME"
-		"Sound"		"vehicles\tdmcars\s5\noshift.wav"
+		"Sound"		"vehicles\tdmcars\s5\fourth_cruise.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -206,8 +197,8 @@
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\slsamg\enginestart.mp3"
-		"Min_Time"	"0.3"
+		"Sound"		"vehicles\tdmcars\s5\enginestart.mp3"
+		"Min_Time"	"3"
 	}
 	"State"
 	{
