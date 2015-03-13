@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	// Original shader: VertexLitTexture
-	"$basetexture" "models/fearless/cops/female/gear2"
-	"$halflambert" 1
-}

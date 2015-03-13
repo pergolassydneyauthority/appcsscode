@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/tdmcars/tractors/deutzAgrotronX720Decals_diffuse"
-	"$bumpmap" "models/tdmcars/tractors/deutzAgrotronX720Decals_normal"
-	"$translucent" 1
-}
