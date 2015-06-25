@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 80 80 rotate 0 translate 0 0"
+	"$basetexture" "models/tdmcars/trucks/vol_fh1612/leather_light_yellow_exc"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "0.1" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 5
+	"$BasemapAlphaPhongMask" "1"
+	"$colorfix" "{210 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

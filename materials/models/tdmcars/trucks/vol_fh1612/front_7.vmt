@@ -1,0 +1,8 @@
+patch
+{
+	include "materials/models/tdmcars/trucks/vol_fh1612/wheel_base.vmt"
+	insert
+	{
+		$basetexture "models/tdmcars/trucks/vol_fh1612/front_7"
+	}
+}
