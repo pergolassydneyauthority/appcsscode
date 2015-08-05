@@ -5,9 +5,9 @@
 	"$nodecal" "1"
 	"$translucent" 1
 	"$phong" 1
-	"$phongboost" ".2"
+	"$phongboost" ".15"
 	"$phongexponent" 2
-	"$phongfresnelranges" "[0.2 0.5 0.7]"
+	"$phongfresnelranges" "[0.10 0.6 1.5]"
 	"$envmap" "env_cubemap"
 	"$envmapfresnel" "1"
 	"$colorfix" "{255 255 255}"

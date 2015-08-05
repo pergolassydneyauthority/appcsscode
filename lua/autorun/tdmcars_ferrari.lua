@@ -54,6 +54,19 @@ local V = {
 list.Set("Vehicles", "ferf12tdm", V)
 
 local V = {
+			Name = "Ferrari F430", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster, Turn 10",
+			Information = "A drivable Ferrari F430 by TheDanishMaster",
+				Model = "models/tdmcars/fer_f430.mdl",
+							KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/fer_f430.txt"
+							}
+			}
+list.Set("Vehicles", "ferf430tdm", V)
+
+local V = {
 			Name = "Ferrari F50", 
 			Class = PrVeh,
 			Category = Cat,

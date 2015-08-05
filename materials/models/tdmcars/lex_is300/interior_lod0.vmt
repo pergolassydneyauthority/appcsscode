@@ -9,10 +9,6 @@
 	"$phongboost" "0.03" 
 	"$phongfresnelranges" "[1 1 1]" 
 	"$phongexponent" 2
-	"$detail" "models/tdmcars/lex_is300/interior_emissive"
-	"$detailscale" "1"
-	"$detailblendfactor" "100"
-	"$detailblendmode" "1"
 	"$colorfix" "{255 255 255}"
 	"Proxies"
 	{
