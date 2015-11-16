@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/tdmcars/emergency/for_crownvic/misc"
 	"$bumpmap" "models/tdmcars/emergency/for_crownvic/misc_nrm"
+	"$nodecal" "1"
 	"$halflambert" 1
 	"$phong" "1" 
 	"$phongboost" "1" 

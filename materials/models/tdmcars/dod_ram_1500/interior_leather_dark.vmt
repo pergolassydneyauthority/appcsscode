@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/shared/interior_leather_dark_nrm"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" ".15" 
+	"$phongfresnelranges" "[1 1 1]" 
+	"$phongexponent" 3
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "4"
+	"$rimmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$phongexponenttexture" "models/tdmcars/shared/interior_leather_dark_phong"
+	"$colorfix" "{60 65 60}"
+	"$detail" "models/tdmcars/shared/interior_leather_dark_detail"
+	"$detailscale" "0.1"
+	"$detailblendfactor" "0.3"
+	"$detailblendmode" "0"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

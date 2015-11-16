@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/tdmcars/emergency/for_crownvic/nodamage"
 	"$bumpmap" "models/tdmcars/emergency/for_crownvic/nodamage_nrm"
+	"$nodecal" "1"
 	"$phong" "1"
 	"$phongexponent" "20"
 	"$phongboost" ".5"	

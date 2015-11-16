@@ -1,26 +1,27 @@
-// rs4avant, created by TheDanishMaster in 05/19/13 19:19:22, using Vehicle Controller (VCMod).
+// rs4avant, created by Deputy TDM in 11/08/15 23:34:18, using Vehicle Controller (VCMod).
 
 "Vehicle"
 {
 	"WheelsPerAxle"		"2"
 	"Body"
 	{
-		"CounterTorqueFactor"	"0.9"
-		"MassCenterOverride"	"0 -3 18"
-		"MassOverride"			"2100"
+		"CounterTorqueFactor"	"0.95"
+		"MassCenterOverride"	"0 -10 5"
+		"MassOverride"			"1795"
 		"AddGravity"			"0.5"
+		"MaxAngularVelocity"	"420"
 	}
 	"Engine"
 	{
-		"HorsePower"			"400"
+		"HorsePower"			"444"
 		"MaxRPM"				"5000"
 		"MaxSpeed"				"101"
-		"MaxReverseSpeed"		"23"
+		"MaxReverseSpeed"		"24"
 		"AutobrakeSpeedGain"	"1.1"
 		"AutobrakeSpeedFactor"	"3"
 		"Autotransmission"		"0"
 		"AxleRatio"				"4.9"
-		"Gear"					"3.2"
+		"Gear"					"3.3"
 		"Gear"					"2.4"
 		"Gear"					"1.5"
 		"Gear"					"1"
@@ -32,22 +33,22 @@
 	"Steering"
 	{
 		"DegreesSlow"						"40"
-		"DegreesFast"						"18"
+		"DegreesFast"						"7"
 		"DegreesBoost"						"11"
-		"FastDampen"						"0"
-		"SteeringExponent"					"1.5"
-		"SlowCarSpeed"						"15"
-		"FastCarSpeed"						"40"
-		"SlowSteeringRate"					"3"
-		"FastSteeringRate"					"1.2"
-		"SteeringRestRateSlow"				"3"
-		"SteeringRestRateFast"				"1.2"
-		"TurnThrottleReduceSlow"			"0.21"
-		"TurnThrottleReduceFast"			"0.62"
-		"BrakeSteeringRateFactor"			"2"
-		"ThrottleSteeringRestRateFactor"	"2"
-		"BoostSteeringRestRateFactor"		"1.7"
-		"BoostSteeringRateFactor"			"1.7"
+		"FastDampen"						"130"
+		"SteeringExponent"					"1"
+		"SlowCarSpeed"						"2"
+		"FastCarSpeed"						"60"
+		"SlowSteeringRate"					"2.9"
+		"FastSteeringRate"					"1.8"
+		"SteeringRestRateSlow"				"2.9"
+		"SteeringRestRateFast"				"1.8"
+		"TurnThrottleReduceSlow"			"0.01"
+		"TurnThrottleReduceFast"			"0.6"
+		"BrakeSteeringRateFactor"			"1"
+		"ThrottleSteeringRestRateFactor"	"1.8"
+		"BoostSteeringRestRateFactor"		"1.8"
+		"BoostSteeringRateFactor"			"1.8"
 
 		"PowerSlideAccel"					"250"
 
@@ -58,8 +59,8 @@
 	{
 		"Wheel"
 		{
-			"Radius"						"15.8"
-			"Mass"							"100"
+			"Radius"						"15.5"
+			"Mass"							"260"
 			"Inertia"						"0"
 			"Damping"						"0"
 			"RotDamping"					"0"
@@ -69,38 +70,38 @@
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"60"
-			"SpringDamping"					"0.2"
+			"SpringConstant"				"70"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"9"
-			"MaxBodyForce"					"9"
+			"SpringDampingCompression"		"4.7"
+			"MaxBodyForce"					"180"
 		}
-		"TorqueFactor"						"0.4"
+		"TorqueFactor"						"0.5"
 		"BrakeFactor"						"0.6"
 	}
 	"Axle"
 	{
 		"Wheel"
 		{
-			"Radius"						"15.8"
-			"Mass"							"180"
-			"Inertia"						"2"
-			"Damping"						"0.5"
-			"RotDamping"					"0.2"
+			"Radius"						"15.5"
+			"Mass"							"250"
+			"Inertia"						"0"
+			"Damping"						"0.4"
+			"RotDamping"					"0.9"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"slidingrubbertire"
 			"BrakeMaterial"					"brakingrubbertire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"100"
-			"SpringDamping"					"0.2"
+			"SpringConstant"				"110"
+			"SpringDamping"					"0.8"
 			"StabilizerConstant"			"0"
-			"SpringDampingCompression"		"9"
-			"MaxBodyForce"					"12"
+			"SpringDampingCompression"		"4.7"
+			"MaxBodyForce"					"200"
 		}
-		"TorqueFactor"						"0.4"
-		"BrakeFactor"						"0.6"
+		"TorqueFactor"						"0.5"
+		"BrakeFactor"						"0.55"
 	}
 }
 

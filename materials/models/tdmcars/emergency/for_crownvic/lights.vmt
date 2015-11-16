@@ -2,6 +2,7 @@
 {
 	"$basetexture" "models/tdmcars/charger12/lights"
 	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
 	"$phong" "1"
 	"$phongexponent" "20"
 	"$phongboost" ".5"	
