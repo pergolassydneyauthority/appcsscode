@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/dod_ram_3500/01251c9c121f328"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".5"	
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

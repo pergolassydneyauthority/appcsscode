@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/dod_ram_3500/craftmaster"
+	"$bumpmap" "models/tdmcars/dod_ram_3500/craftmaster_nrm"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "0.05"	
+	"$phongfresnelranges"	"[1 1 1]"
+	"$nodecal" "1"
+	"$detail" "models/tdmcars/shared/noise"
+	"$detailscale" "7"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "0"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

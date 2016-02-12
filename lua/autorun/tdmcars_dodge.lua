@@ -59,12 +59,26 @@ local V = {
 			Category = Cat,
 			Author = "TheDanishMaster",
 			Information = "A drivable Dodge RAM 1500 by TheDanishMaster",
-				Model = "models/tdmcars/dod_ram_1500.mdl",
-				KeyValues = {
-							vehiclescript	=	"scripts/vehicles/TDMCars/dod_ram_1500.txt"
-							}
+			Model = "models/tdmcars/dod_ram_1500.mdl",
+			KeyValues = {
+						vehiclescript	=	"scripts/vehicles/TDMCars/dod_ram_1500.txt"
+						}
 			}
 list.Set("Vehicles", "dod_ram_1500tdm", V)
+
+local V = {
+			Name = "Dodge RAM 3500", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster",
+			Information = "A drivable Dodge RAM 3500 by TheDanishMaster",
+			Model = "models/tdmcars/dod_ram_3500.mdl",
+			Offset = 40,
+			KeyValues = {
+						vehiclescript	=	"scripts/vehicles/TDMCars/dod_ram_3500.txt"
+						}
+			}
+list.Set("Vehicles", "dod_ram_3500tdm", V)
 
 local V = {
 			Name = "Dodge Challenger 2015", 
