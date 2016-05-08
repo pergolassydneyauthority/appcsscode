@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/trucks/ats/base_interior_patterns.vmt"
+	"insert"
+	{
+	"$basetexturetransform" "center .5 .5 scale 10 10 rotate 0 translate 0 0"
+		"$basetexture" "models/tdmcars/trucks/ats/wood"
+		"$bumpmap" ""
+		"$colorfix" "{100 80 80}"
+		"$BasemapAlphaPhongMask" "1"
+	}
+}
+

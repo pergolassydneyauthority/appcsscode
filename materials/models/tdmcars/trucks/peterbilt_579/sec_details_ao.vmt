@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/peterbilt_579/sec_details_ao"
+	"$nodecal" "1"
+	"$BasemapAlphaPhongMask" "1"
+	"$phongboost" ".2" 
+	"$phongfresnelranges" "[.1 .5 1]" 
+	"$phongexponent" 20
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

@@ -65,6 +65,22 @@ hook.Add( "PostDrawOpaqueRenderables", "TDMDigitalSpeedo", function()
 				draw.SimpleText( "MPH" , "LeafUnit",55, 10, Color(255,255,255), 0, 0)
             cam.End3D2D()
         end
+		if Vehicle:GetModel() == "models/tdmcars/trucks/peterbilt_579.mdl" then
+			local speed = math.Round(Vehicle:GetVelocity():Length() / (63360/3600),0)
+			cam.Start3D2D(Vehicle:LocalToWorld(Vector(-23.3,96.7,100)),Vehicle:LocalToWorldAngles(Angle(0,0,65)),.005)
+				surface.SetDrawColor(0,255,0)
+				draw.SimpleText( speed , "GhibliSpeedoFont", -30, 30, Color(255,255,255), TEXT_ALIGN_RIGHT, 0)
+				draw.SimpleText( "mph" , "GhibliSpeedoFont", 00, 30, Color(255,255,255), 0, 0)
+			cam.End3D2D()
+		end
+		if Vehicle:GetModel() == "models/tdmcars/trucks/peterbilt_579_med.mdl" then
+			local speed = math.Round(Vehicle:GetVelocity():Length() / (63360/3600),0)
+			cam.Start3D2D(Vehicle:LocalToWorld(Vector(-23.3,96.7,106)),Vehicle:LocalToWorldAngles(Angle(0,0,65)),.005)
+				surface.SetDrawColor(0,255,0)
+				draw.SimpleText( speed , "GhibliSpeedoFont", -30, 30, Color(255,255,255), TEXT_ALIGN_RIGHT, 0)
+				draw.SimpleText( "mph" , "GhibliSpeedoFont", 00, 30, Color(255,255,255), 0, 0)
+			cam.End3D2D()
+		end
 		if Vehicle:GetModel() == "models/tdmcars/bmwm5e60.mdl" then
 			local speed = math.Round(Vehicle:GetVelocity():Length() / (63360/3600),0)
 			cam.Start3D2D(Vehicle:LocalToWorld(Vector(-19,35,56)),Vehicle:LocalToWorldAngles(Angle(0,0,90)),0.006)

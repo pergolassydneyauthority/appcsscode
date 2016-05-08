@@ -10,7 +10,7 @@
 	"$envmapfresnel" "1.2"
 	"$phongfresnelranges" "[0.25 0.8 2.6]"
 	"$envmaptint" "[0.5 0.5 0.5]"
-	"$phongfix" "{20 20 20}"
+	"$colorfix" "{20 20 20}"
 	"Proxies"
 	{
 		"Equals"

@@ -1,0 +1,22 @@
+patch
+{
+	include "materials/models/tdmcars/shared/skin.vmt"
+	insert
+	{
+		"$basetexturetransform" ""
+		"$basetexture" "models/tdmcars/trailers/gooseneck/plain_r"
+		"$bumpmap" ""
+		"$basemapalphaphongmask" "1"
+		"$colorfix" "{255 255 255}"
+		"$phongtint" "{20 20 20}"
+		"Proxies"
+		{
+			"Equals"
+			{
+				srcVar1 $colorfix
+				resultVar	$color
+				
+			}
+		}
+	}
+}

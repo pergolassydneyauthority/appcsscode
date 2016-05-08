@@ -1,0 +1,16 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/trucks/ats/base_interior_patterns.vmt"
+	"insert"
+	{
+		"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+		"$basetexture" "models/tdmcars/trucks/peterbilt_579/int_big_ao"
+		"$bumpmap" "models/tdmcars/trucks/peterbilt_579/int_big_no"
+		"$phong" "1" 
+		"$phongboost" ".05" 
+		"$phongfresnelranges" "[1 1 1]" 
+		"$phongexponent" 5
+		"$envmaptint" "[.0004 .0002 .0002]"
+		"$colorfix" "{200 200 200}"
+	}
+}

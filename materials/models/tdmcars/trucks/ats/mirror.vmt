@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/shared/chrome.vmt"
+	"$nodecal" "1"
+	"insert"
+	{
+
+	}
+}
+

@@ -1,0 +1,12 @@
+patch
+{
+	include "materials/models/tdmcars/shared/skin.vmt"
+	insert
+	{
+		"$basetexturetransform" ""
+		"$basetexture" "models/tdmcars/trailers/gooseneck/cabin"
+		"$bumpmap" ""
+		"$basemapalphaphongmask" "1"
+		"$blendtintbybasealpha" "1"
+	}
+}

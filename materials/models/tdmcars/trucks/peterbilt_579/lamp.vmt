@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tdmcars/trucks/peterbilt_579/lamp"
+	"$bumpmap" "models/tdmcars/trucks/peterbilt_579/lamp_n"
+	"$nodecal" "1"
+	"$phong" "1" 
+	"$phongboost" "1" 
+	"$phongfresnelranges" "[.3 .5 1]" 
+	"$phongexponent" 100
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$normalmapalphaenvmapmask" "1"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

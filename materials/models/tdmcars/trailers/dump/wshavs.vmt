@@ -1,0 +1,13 @@
+patch
+{
+	include "materials/models/tdmcars/shared/skin.vmt"
+	insert
+	{
+		"$basetexturetransform" ""
+		"$basetexture" "models/tdmcars/trailers/dump/wshavs"
+		"$bumpmap" "models/tdmcars/trailers/dump/wshavs_n"
+		"$envmaptint" "[0 0 0]"
+		"$phongexponent" "3"
+		"$phongboost" ".1"
+	}
+}

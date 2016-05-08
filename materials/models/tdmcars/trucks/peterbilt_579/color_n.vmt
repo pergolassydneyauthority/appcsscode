@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/shared/skin.vmt"
+	"insert"
+	{
+		"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+		"$bumpmap" "models/tdmcars/trucks/peterbilt_579/color_n"
+	}
+}
+
