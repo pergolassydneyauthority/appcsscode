@@ -201,8 +201,8 @@
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\skyliner34\enginestart.mp3"
-		"Min_Time"	"0.7"
+		"Sound"		"vehicles\tdmcars\miscsounds\enginestart.mp3"
+		"Min_Time"	"0.3"
 	}
 	"State"
 	{

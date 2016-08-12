@@ -201,7 +201,7 @@
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\slsamg\enginestart.mp3"
+		"Sound"		"vehicles\tdmcars\miscsounds\enginestart.mp3"
 		"Min_Time"	"0.3"
 	}
 	"State"
