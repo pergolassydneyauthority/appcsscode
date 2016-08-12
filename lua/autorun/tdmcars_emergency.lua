@@ -122,20 +122,6 @@ local V = {
 			}
 list.Set("Vehicles", "scaniafiretdm", V)
 
-local V = {
-			Name = "Chevrolet Caprice", 
-			Class = PrVeh,
-			Category = Cat,
-			Author = "TheDanishMaster, Carface",
-			Information = "A drivable Chevrolet Caprice by TheDanishMaster",
-			Model = "models/tdmcars/emergency/chev_caprice.mdl",
-			KeyValues = {
-							vehiclescript	=	"scripts/vehicles/TDMCars/chev_caprice.txt"
-							}
-			}
-list.Set("Vehicles", "chevcapricetdm", V)
-
-
 if !TaurusAddProps_List then TaurusAddProps_List = {} end
 hook.Add("PlayerSpawnedVehicle","TaurusAddProps", function( ply, vehicle )
     if vehicle:GetModel( ) == "models/tdmcars/emergency/for_taurus_13.mdl" then
