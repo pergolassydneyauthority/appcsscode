@@ -29,6 +29,19 @@ local V = {
 list.Set("Vehicles", "dbstdm", V)
 
 local V = {
+			Name = "Aston Martin Rapide", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster, Turn 10",
+			Information = "A drivable Aston Martin Rapide by TheDanishMaster",
+			Model = "models/tdmcars/ast_rapide.mdl",
+			KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/ast_rapide.txt"
+							}
+			}
+list.Set("Vehicles", "ast_rapidetdm", V)
+
+local V = {
 			Name = "Aston Martin V12 Vantage 2010", 
 			Class = PrVeh,
 			Category = Cat,

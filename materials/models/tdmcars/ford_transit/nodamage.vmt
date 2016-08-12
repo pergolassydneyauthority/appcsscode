@@ -1,11 +1,9 @@
-"VertexlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/ford_transit/nodamage"
-	"$bumpmap" "models/tdmcars/shared/skin_nm"
-	"$blendtintbybasealpha" 1
-	"$nodecal" "1"
-	"$phong" "1" 
-	"$phongboost" "0.05" 
-	"$phongfresnelranges" "[1 1 1]" 
-	"$phongexponent" 40
+	"include" "materials/models/tdmcars/shared/base_nodamage.vmt"
+	"insert"
+	{
+		"$basetexture" "models/tdmcars/ford_transit/nodamage"
+		"$alphatest" "0"
+	}
 }

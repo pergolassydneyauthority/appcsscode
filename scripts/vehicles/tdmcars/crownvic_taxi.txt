@@ -189,7 +189,7 @@
 	"State"
 	{
 		"Name"		"SS_SHUTDOWN"
-		"Sound"		"vehicles\tdmcars\slsamg\engineoff.mp3"
+		"Sound"		"tdmcars_engine_off"
 		"Min_Time"	"0"
 	}
 	"State"

@@ -1,15 +1,9 @@
-"VertexlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/coupe40/nodamage"
-	"$blendtintbybasealpha" 1
-	"$nodecal" "1"
-	"$halflambert" 1
-	"$phong" "1" 
-	"$phongboost" "0.5" 
-	"$phongfresnelranges" "[1 1 1]" 
-	"$phongexponent" 50
-	"$rimlight" "1"
-	"$rimlightexponent" "10"
-	"$rimlightboost" ".1"
-	"$rimmask" "1"
+	"include" "materials/models/tdmcars/shared/base_nodamage.vmt"
+	"insert"
+	{
+		"$basetexture" "models/tdmcars/coupe40/nodamage"
+		"$alphatest" "0"
+	}
 }

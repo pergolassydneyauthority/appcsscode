@@ -1,22 +1,13 @@
-"VertexlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/dod_challenger15/nodamage"
-	"$bumpmap" "models/tdmcars/shared/skin_nm"
-	"$nodecal" "1"
-	"$alphatest" "1"
-	"$allowalphatocoverage" "1"
-	"$halflambert" 1
-	"$phong" "1" 
-	"$phongboost" "0.2" 
-	"$phongfresnelranges" "[1 1 1]" 
-	"$phongexponent" 50
-	"$colorfix" "{255 255 255}"
-	"Proxies"
+	"include" "materials/models/tdmcars/shared/base_nodamage.vmt"
+	"insert"
 	{
-		"Equals"
-		{
-			srcVar1 $colorfix
-			resultVar	$color
-		}
+		"$basetexture" "models/tdmcars/dod_challenger15/nodamage"
+		"$envmap" "env_cubemap"
+		"$envmapfresnel" "1.7"
+		"$phongfresnelranges" "[.4 .7 4]"
+		"$envmaptint" "[0.5 0.5 0.5]"
 	}
 }
+

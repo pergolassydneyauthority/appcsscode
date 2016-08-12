@@ -195,14 +195,14 @@
 	"State"
 	{
 		"Name"		"SS_SHUTDOWN"
-		"Sound"		"vehicles\tdmcars\slsamg\engineoff.mp3"
+		"Sound"		"tdmcars_engine_off"
 		"Min_Time"	"0"
 	}
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\bmw1m\enginestart.mp3"
-		"Min_Time"	"2"
+		"Sound"		"vehicles\tdmcars\miscsounds\enginestart.mp3"
+		"Min_Time"	".5"
 	}
 	"State"
 	{

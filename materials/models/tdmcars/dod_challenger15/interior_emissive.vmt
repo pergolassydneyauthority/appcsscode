@@ -1,17 +1,9 @@
-"UnlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/dod_challenger15/interior_emissive"
-	"$alphatest" "1"
-	"$model" "1"
-	"$allowalphatocoverage" "1"
-	"$nodecal" "1"
-	"$colorfix" "{255 255 255}"
-	"Proxies"
+	"include" "materials/models/tdmcars/shared/base_interior_emissive.vmt"
+	"insert"
 	{
-		"Equals"
-		{
-			srcVar1 $colorfix
-			resultVar	$color
-		}
+		"$basetexture" "models/tdmcars/dod_challenger15/interior_emissive"
 	}
 }
+

@@ -2,6 +2,20 @@ local PrVeh = "prop_vehicle_jeep"
 local Cat = "TDM Cars"
 
 local V = {
+			Name = "Volkswagen Beetle 1968", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster, Turn 10",
+			Information = "A drivable Volkswagen Beetle 1968 by TheDanishMaster",
+			Model = "models/tdmcars/beetle.mdl",
+			KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/beetle68.txt"
+							}
+			}
+list.Set("Vehicles", "beetle68tdm", V)
+
+
+local V = {
 			Name = "Volkswagen Golf MKII", 
 			Class = PrVeh,
 			Category = Cat,

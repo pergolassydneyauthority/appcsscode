@@ -1,15 +1,13 @@
-"VertexlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/challenger70/interior_lod0"
-	"$bumpmap" "models/tdmcars/shared/glass_nm"
-	"$blendtintbybasealpha" 1
-	"$nodecal" "1"
-	"$phong" "1" 
-	"$phongboost" "0.03" 
-	"$phongfresnelranges" "[.3 .5 1]" 
-	"$phongexponent" 2
-	"$detail" "models/tdmcars/challenger70/interior_emissive"
-	"$detailscale" "1"
-	"$detailblendfactor" "100"
-	"$detailblendmode" "1"
+	"include" "materials/models/tdmcars/shared/base_interior.vmt"
+	"insert"
+	{
+		"$basetexture" "models/tdmcars/challenger70/interior_lod0"
+		"$detail" "models/tdmcars/challenger70/interior_emissive"
+		"$alphatest" 0
+		"$detailscale" "1"
+		"$detailblendfactor" "100"
+		"$detailblendmode" "1"
+	}
 }

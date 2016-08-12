@@ -2,6 +2,20 @@ local PrVeh = "prop_vehicle_jeep"
 local Cat = "TDM Emergency"
 
 local V = {
+			Name = "Dodge Charger SRT8 Police", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster, Turn 10",
+			Information = "A drivable Dodge Charger SRT8 Police by TheDanishMaster",
+				Model = "models/tdmcars/emergency/chargersrt8.mdl",
+							KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/chargersrt8.txt",
+							skin = "1"
+							}
+			}
+list.Set("Vehicles", "chargersrt8poltdm", V)
+
+local V = {
 			Name = "Dodge Charger SRT8 2012 Police", 
 			Class = PrVeh,
 			Category = Cat,
@@ -107,6 +121,20 @@ local V = {
 							}
 			}
 list.Set("Vehicles", "scaniafiretdm", V)
+
+local V = {
+			Name = "Chevrolet Caprice", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster, Carface",
+			Information = "A drivable Chevrolet Caprice by TheDanishMaster",
+			Model = "models/tdmcars/emergency/chev_caprice.mdl",
+			KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/chev_caprice.txt"
+							}
+			}
+list.Set("Vehicles", "chevcapricetdm", V)
+
 
 if !TaurusAddProps_List then TaurusAddProps_List = {} end
 hook.Add("PlayerSpawnedVehicle","TaurusAddProps", function( ply, vehicle )

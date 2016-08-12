@@ -1,25 +1,9 @@
-"VertexlitGeneric"
+"patch"
 {
-	"$basetexture" "models/tdmcars/ast_v12vantage/nodamage"
-	"$nodecal" "1"
-	"$alphatest" "1"
-	"$allowalphatocoverage" "1"
-	"$halflambert" 1
-	"$phong" "1" 
-	"$phongboost" "0.5" 
-	"$phongfresnelranges" "[1 1 1]" 
-	"$phongexponent" 50
-	"$rimlight" "1"
-	"$rimlightexponent" "10"
-	"$rimlightboost" ".1"
-	"$rimmask" "1"
-	"$colorfix" "{255 255 255}"
-	"Proxies"
+	"include" "materials/models/tdmcars/shared/base_nodamage.vmt"
+	"insert"
 	{
-		"Equals"
-		{
-			srcVar1 $colorfix
-			resultVar	$color
-		}
+		"$basetexture" "models/tdmcars/ast_v12vantage/nodamage"
 	}
 }
+
