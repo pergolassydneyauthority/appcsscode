@@ -3,18 +3,18 @@
 	"WheelsPerAxle"		"2"
 	"Body"
 	{
-		"CounterTorqueFactor"	"0.75"
-		"MassCenterOverride"	"0 5 25"
-		"MassOverride"			"9500"
+		"CounterTorqueFactor"	"0.5"
+		"MassCenterOverride"	"0 0 4"
+		"MassOverride"			"4000"
 		"AddGravity"			"0.3"
 		"MaxAngularVelocity"	"250"
 	}
 	"Engine"
 	{
-		"HorsePower"			"720"
-		"MaxRPM"				"2700"
-		"MaxSpeed"				"70"
-		"MaxReverseSpeed"		"10"
+		"HorsePower"			"450"
+		"MaxRPM"				"3000"
+		"MaxSpeed"				"65"
+		"MaxReverseSpeed"		"16"
 		"AutobrakeSpeedGain"	"0"
 		"AutobrakeSpeedFactor"	"0"
 		"Autotransmission"		"0"
@@ -50,29 +50,29 @@
 
 		"PowerSlideAccel"					"190"
 
-		"SkidAllowed"						"0"
+		"SkidAllowed"						"1"
 		"DustCloud"							"1"
 	}
 	"Axle"
 	{
 		"Wheel"
 		{
-			"Radius"						"27.5"
-			"Mass"							"700"
+			"Radius"						"19.5"
+			"Mass"							"550"
 			"Inertia"						"0"
 			"Damping"						"0"
-			"RotDamping"					"3"
+			"RotDamping"					"2.3"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"jeeptire"
 			"BrakeMaterial"					"jeeptire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"30"
+			"SpringConstant"				"25"
 			"SpringDamping"					"0.3"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"3"
-			"MaxBodyForce"					"2100"
+			"MaxBodyForce"					"2400"
 		}
 		"TorqueFactor"						"0.00"
 		"BrakeFactor"						"0.65"
@@ -81,24 +81,24 @@
 	{
 		"Wheel"
 		{
-			"Radius"						"27.5"
-			"Mass"							"800"
+			"Radius"						"19.5"
+			"Mass"							"600"
 			"Inertia"						"0"
 			"Damping"						"0"
-			"RotDamping"					"4"
+			"RotDamping"					"3.1"
 			"Material"						"jeeptire"
 			"SkidMaterial"					"jeeptire"
 			"BrakeMaterial"					"jeeptire"
 		}
 		"Suspension"
 		{
-			"SpringConstant"				"35"
+			"SpringConstant"				"28"
 			"SpringDamping"					"0.3"
 			"StabilizerConstant"			"0"
 			"SpringDampingCompression"		"3"
-			"MaxBodyForce"					"2000"
+			"MaxBodyForce"					"3000"
 		}
-		"TorqueFactor"						"1.3"
+		"TorqueFactor"						"1.0"
 		"BrakeFactor"						"0.5"
 	}
 }
@@ -112,22 +112,22 @@
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.2"
+		"Max_Speed"				"0.11"
 		"Speed_Approach_Factor"	"0.07"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.6"
+		"Max_Speed"				"0.3"
 		"Speed_Approach_Factor"	"0.108"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"0.79"
+		"Max_Speed"				"0.42"
 		"Speed_Approach_Factor"	"0.035"
 	}
 	"Gear"
 	{
-		"Max_Speed"				"1.16"
+		"Max_Speed"				"1.0"
 		"Speed_Approach_Factor"	"0.015"
 	}
 	"State"
@@ -139,7 +139,7 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_2_RESUME"
-		"Sound"		"vehicles\tdmcars\bus\third.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\third.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
@@ -151,43 +151,43 @@
 	"State"
 	{
 		"Name"		"SS_GEAR_3_RESUME"
-		"Sound"		"vehicles\tdmcars\bus\fourth_cruise.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\fourth_cruise.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_REVERSE"
-		"Sound"		"vehicles\tdmcars\bus\rev.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\rev.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_IDLE"
-		"Sound"		"vehicles\tdmcars\bus\idle.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\idle.wav"
 		"Min_Time"	"0"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_1_RESUME"
-		"Sound"		"vehicles\tdmcars\bus\second.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\second.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_4"
-		"Sound"		"vehicles\tdmcars\bus\fourth_cruise.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\fourth_cruise.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_1"
-		"Sound"		"vehicles\tdmcars\bus\first.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\first.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_SLOWDOWN_HIGHSPEED"
-		"Sound"		"vehicles\tdmcars\bus\throttle_off.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\throttle_off.wav"
 		"Min_Time"	"0"
 	}
 	"State"
@@ -199,43 +199,43 @@
 	"State"
 	{
 		"Name"		"SS_START_IDLE"
-		"Sound"		"vehicles\tdmcars\bus\start_engine.wav"
-		"Min_Time"	"1.5"
+		"Sound"		"vehicles\tdmcars\courier_truck\start_engine.wav"
+		"Min_Time"	".5"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_4_RESUME"
-		"Sound"		"vehicles\tdmcars\bus\fourth_cruise.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\fourth_cruise.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_3"
-		"Sound"		"vehicles\tdmcars\bus\third.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\third.wav"
 		"Min_Time"	"0.5"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_0_RESUME"
-		"Sound"		"vehicles\tdmcars\bus\idle.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\idle.wav"
 		"Min_Time"	"0.75"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_0"
-		"Sound"		"vehicles\tdmcars\bus\first.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\first.wav"
 		"Min_Time"	"0.75"
 	}
 	"State"
 	{
 		"Name"		"SS_GEAR_2"
-		"Sound"		"vehicles\tdmcars\bus\second.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\second.wav"
 		"Min_Time"	"1.25"
 	}
 	"State"
 	{
 		"Name"		"SS_SLOWDOWN"
-		"Sound"		"vehicles\tdmcars\bus\idle.wav"
+		"Sound"		"vehicles\tdmcars\courier_truck\idle.wav"
 		"Min_Time"	"0"
 	}
 	"CrashSound"

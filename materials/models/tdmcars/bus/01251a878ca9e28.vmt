@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/shared/base_lights.vmt"
+	"insert"
+	{
+		"$basetexture" "models/tdmcars/bus/lights"
+		"$envmap" ""
+		"$phongboost" ".1"
+		"$phongexponent" "10"
+	}
+}
+

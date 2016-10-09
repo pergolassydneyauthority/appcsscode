@@ -1,0 +1,9 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/shared/tirea0.vmt"
+	"insert"
+	{
+		"$basetexture" "models/tdmcars/bus/wheel"
+		"$bumpmap" "models/tdmcars/bus/wheel_nrm"
+	}
+}

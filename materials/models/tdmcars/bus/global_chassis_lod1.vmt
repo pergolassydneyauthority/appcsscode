@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/models/tdmcars/shared/skin.vmt"
+	"insert"
+	{
+		"$basetexturetransform" ""
+		"$basetexture" "models/tdmcars/bus/misc"
+		"$blendtintbybasealpha" "1"
+		"$phongboost" ".2"
+		"$phongfix" "[1 1 1]"
+	}
+}
+
