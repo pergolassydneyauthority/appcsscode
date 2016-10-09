@@ -31,7 +31,7 @@ list.Set("Vehicles", "courier_trucktdm", V)
 
 
  if SERVER then
-	hook.Add("Think", "TDMGTAV_BusDoors", function()
+	hook.Add("Think", "TDMOrion_BusDoors", function()
 		for _, ent in pairs(ents.FindByClass("prop_vehicle_jeep*")) do
 				if ent:GetModel() == "models/tdmcars/bus.mdl" then
 				local FrontDoor = 0
