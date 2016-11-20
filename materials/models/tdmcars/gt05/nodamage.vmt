@@ -4,6 +4,6 @@
 	"insert"
 	{
 		"$basetexture" "models/tdmcars/gt05/nodamage"
-		"$alphatest" "0"
 	}
 }
+

@@ -4,6 +4,6 @@
 	"insert"
 	{
 		"$basetexture" "models/tdmcars/gt05/wheel"
-		"$bumpmap" "models/tdmcars/gt05/wheel_nrm"
 	}
 }
+

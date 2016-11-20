@@ -4,9 +4,6 @@
 	"insert"
 	{
 		"$basetexture" "models/tdmcars/dbs/nodamage"
-		"$bumpmap" "models/tdmcars/dbs/nodamage_nrm"
-		"$alphatest" "0"
 	}
 }
-
 

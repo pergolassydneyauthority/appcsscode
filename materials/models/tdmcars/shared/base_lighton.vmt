@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/tdmcars/shared/skin"
+	"$bumpmap" "models/tdmcars/shared/skin_nm"
+	"$vertexalpha" "1"
+	"$nocull" "1"
+	"$selfillum" "1"
+	"$selfillumtint" "[100 100 100]"
+	"$selfillumfresnel" "1"
+	"$selfillumfresnelminmaxexp" "[.4 1 2]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+

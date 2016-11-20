@@ -1,5 +1,6 @@
 "VertexlitGeneric"
 {
+	"$basetexturetransform" "center .5 .5 scale .15 .15 rotate 0 translate 0 0"
 	"$basetexture" "models/tdmcars/shared/skin"
 	"$bumpmap" "models/tdmcars/for_she_gt500/leather2_nrm"
 	"$halflambert" 1

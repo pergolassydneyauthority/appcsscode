@@ -156,3 +156,18 @@ local V = {
 							}
 			}
 list.Set("Vehicles", "for_she_gt500tdm", V)
+
+if SERVER then
+	hook.Add("Think", "TDMBoost_FordGT", function()
+		for _, ent in pairs(ents.FindByClass("prop_vehicle_jeep*")) do
+			if ent:GetModel() == "models/tdmcars/gt05.mdl" then
+				local Pwr = 0
+					if IsValid(ent:GetDriver()) then
+						if ent:GetDriver():KeyDown(IN_FORWARD) then Pwr = 1 end
+					end
+				ent.Cars_Power = Lerp(0.06, ent.Cars_Power or 0, Pwr)
+				ent:SetPoseParameter("boost_gauge", ent.Cars_Power)
+			end
+		end
+	end)
+end
