@@ -2,6 +2,19 @@ local PrVeh = "prop_vehicle_jeep"
 local Cat = "TDM Cars"
 
 local V = {
+			Name = "BMW 340i", 
+			Class = PrVeh,
+			Category = Cat,
+			Author = "TheDanishMaster",
+			Information = "A drivable BMW 340i by TheDanishMaster",
+			Model = "models/tdmcars/bmw_340i.mdl",
+			KeyValues = {
+							vehiclescript	=	"scripts/vehicles/TDMCars/bmw_340i.txt"
+							}
+			}
+list.Set("Vehicles", "bmw_340itdm", V)
+
+local V = {
 			Name = "BMW 507", 
 			Class = PrVeh,
 			Category = Cat,
